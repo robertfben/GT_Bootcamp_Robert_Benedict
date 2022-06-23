@@ -65,7 +65,7 @@ Sub stockLooper():
         Last_Close = Cells(I, 6).Value
         
         'set the Yearly Change for each ticker
-        Yearly_Change = First_Open - Last_Close
+        Yearly_Change = Last_Close - First_Open
         
         'set the Percent Change for each ticker
         Percent_Change = Yearly_Change / First_Open
