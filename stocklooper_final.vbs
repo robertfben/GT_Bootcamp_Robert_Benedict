@@ -2,10 +2,10 @@ Attribute VB_Name = "Module1"
 ' This script will loop through all stocks for one year and output:
 ' The singular Ticker symbol,
 ' The yearly change from opening price at the beginning of given year to
-' closing price at end of year (first opening - last closing),
+' closing price at end of year (last closing - first opening),
 ' The percent change from opening price at beginning of given year to the
-' closing price at end of year (percent of first op. - last close.),
-' The total (sum) stock volume per stock ticker
+' closing price at end of year (Yearly Change / First Opening),
+' And the total (sum) stock volume per stock ticker
 
 Sub stockLooper():
 
