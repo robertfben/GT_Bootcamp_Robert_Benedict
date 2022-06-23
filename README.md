@@ -1,2 +1,2 @@
 # GT_Bootcamp_Robert_Benedict
-My first repository
+Repository containing materials for the various module assignments.
